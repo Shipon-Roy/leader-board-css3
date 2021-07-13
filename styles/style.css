@@ -4,6 +4,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
 }
 main{
     display: flex;
@@ -15,12 +16,46 @@ main{
     width: 870px;
     padding: 30px;
     border-radius: 5px;
+    margin-bottom: 21px;
     margin-top: 21px;
 }
 hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 25px;
 }
+
+/* header menu */
+.header-container{
+    background-color: rgb(78, 78, 233);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-icon{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+    
+}
+.icon-text{
+    color: white;
+    margin-left: 10px;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+/* header menu */
 
 /* top players and blogs */
 .top-players{
